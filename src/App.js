@@ -5,7 +5,9 @@ import Home from './page/Home';
 import Login from './page/Login';
 import Trip from './page/Trip';
 import User from './page/User';
+import MyPage from './page/MyPage';
 import './App.css';
+
 
 const App = () => {
 
@@ -18,6 +20,7 @@ const App = () => {
                 <Route path='/Login' element={<Login />} />
                 <Route path='/Trip' element={<Trip />} />
                 <Route path='/User' element={<User />} />
+                <Route path='/MyPage' element={<MyPage />} />
             </Routes>
         </Router>
     );

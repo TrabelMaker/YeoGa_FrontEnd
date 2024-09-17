@@ -25,15 +25,6 @@
     padding-left: 50px;
   }
   
-  .main-content {
-   display: flex;
-    /* margin-top: 20px; */
-    width: 100%;
-    height: 370px;
-    /* border: solid 1px black; */
-    
-    
-  }
   .main-left {
     width: 400px;
     margin-left: 60px;
