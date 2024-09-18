@@ -1,0 +1,32 @@
+.setting-section{
+    all:unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 70vh;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.setting-section hr{
+    width: 70%;
+}
+
+.setting-section h2{
+    display: flex;
+    color: black;
+    font-size: 30px;
+}
+
+.setting-section p{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*.setting-section p:hover{
+    background-color: rgb(196, 196, 196);
+}*/

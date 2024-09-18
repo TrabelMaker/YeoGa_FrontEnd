@@ -25,6 +25,9 @@
     margin-bottom: 20px;
 }
 
+.user-profile {
+    cursor: pointer;
+}
 
 
 .user-profile {
@@ -53,11 +56,25 @@
     padding: 0;
 }
 
-.sidebar-nav li {
+.sidebar-nav li{
     margin: 10px 0;
+}
+
+.sidebar-nav li:hover {
+    cursor: pointer;
+    padding: 2px;
+    align-items: center;
+    background-color: #7b8fff;
+    border-radius: 7px;
+}
+
+.sidebar-nav li.active {
     cursor: pointer;
     display: flex;
     align-items: center;
+    background-color: #455091;
+    padding: 2px;
+    border-radius: 7px;
 }
 
 .sidebar-nav li i {
